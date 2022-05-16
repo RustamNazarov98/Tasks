@@ -36,12 +36,17 @@ let personalMovieDB = {
 
 console.log(personalMovieDB.count);
 
-let lastWatchedMovie_first = prompt('Один из последних просмотренных фильмов?');
-let filmScore_first = prompt('На сколько оцените его?');
-let lastWatchedMovie_second = prompt('Один из последних просмотренных фильмов?');
-let filmScore_second = prompt('На сколько оцените его?');
+let a = prompt('Один из последних просмотренных фильмов?');
+let b = prompt('На сколько оцените его?');
+let c = prompt('Один из последних просмотренных фильмов?');
+let d = prompt('На сколько оцените его?');
 
-personalMovieDB.movies[lastWatchedMovie_first] = filmScore_first;
-personalMovieDB.movies[lastWatchedMovie_second] = filmScore_second; 
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d; 
 
 console.log(personalMovieDB.movies);
+
+
+
+const num  = 4;
+(num == 4) ? console.log('ok!') : console.log('error');

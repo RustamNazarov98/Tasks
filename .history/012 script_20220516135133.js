@@ -45,3 +45,8 @@ personalMovieDB.movies[lastWatchedMovie_first] = filmScore_first;
 personalMovieDB.movies[lastWatchedMovie_second] = filmScore_second; 
 
 console.log(personalMovieDB.movies);
+
+
+
+const num  = 4;
+(num == 3) ? console.log('ok!') : console.log('error');
